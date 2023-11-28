@@ -4,7 +4,7 @@ form.addEventListener('submit', handleSubmit);
 function handleSubmit(event) {
   event.preventDefault();
   
-  const inputs = event.target.elements;
+  const inputs = form.elements;
   let data = {};
   
   for (let i = 0; i < inputs.length; i++) {
@@ -21,4 +21,5 @@ function handleSubmit(event) {
   console.log(data);
   form.reset();
 }
+
 
