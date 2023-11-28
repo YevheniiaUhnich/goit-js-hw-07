@@ -25,10 +25,14 @@
   
 .gallery {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
+    margin-bottom: 40px;
+    
   }
   
   .gallery li {
-    margin: 10px;
+    
+    width: 30%;
+
   }
