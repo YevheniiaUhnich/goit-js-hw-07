@@ -25,14 +25,12 @@
   
 .gallery {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-direction: column;
     justify-content: center;
-    margin-bottom: 40px;
-    
-  }
+    list-style-type: none;
+}
   
   .gallery li {
-    
     width: 30%;
-
+    margin-bottom: 40px;
   }
