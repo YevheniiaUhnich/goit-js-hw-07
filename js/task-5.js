@@ -13,3 +13,5 @@ button.addEventListener('click', () => {
   document.body.style.backgroundColor = randomColor;
   colorSpan.textContent = randomColor;
 });
+
+console.log("task-5");

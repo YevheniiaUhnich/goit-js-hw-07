@@ -25,4 +25,4 @@ images.forEach((image) => {
   gallery.appendChild(li);
 });
 
-  
+console.log("task-2");

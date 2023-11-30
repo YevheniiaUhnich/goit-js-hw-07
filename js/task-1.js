@@ -9,3 +9,5 @@ categoriesItems.forEach((item) => {
   console.log(`Категорія: ${categoryTitle}`);
   console.log(`Кількість елементів: ${categoryElements.length}`);
 });
+
+console.log("task-1");

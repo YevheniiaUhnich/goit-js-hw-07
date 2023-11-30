@@ -5,3 +5,5 @@ const nameInput = document.querySelector('#name-input');
     const name = event.target.value.trim();
     nameOutput.textContent = name || 'Anonymous';
   });
+  
+  console.log("task-3");

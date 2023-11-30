@@ -38,3 +38,5 @@ createButton.addEventListener('click', () => {
 destroyButton.addEventListener('click', () => {
   destroyBoxes();
 });
+
+console.log("task-6");
