@@ -23,14 +23,20 @@
     cursor: pointer;
   }
   
-.gallery {
+  .gallery {
     display: flex;
-    flex-direction: column;
-    justify-content:baseline;
-    list-style-type: none;
-}
-  
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+
   .gallery li {
-    width: 30%;
-    margin-bottom: 40px;
+    flex-basis: 40%;
+    margin: 20px;
+  }
+
+  .gallery img {
+    width: 100%;
+    height: auto;
   }
