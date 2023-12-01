@@ -33,10 +33,12 @@ createButton.addEventListener('click', () => {
   } else {
     alert('Please enter a number between 1 and 100.');
   }
-});
 
-destroyButton.addEventListener('click', () => {
+  destroyButton.addEventListener('click', () => {
   destroyBoxes();
 });
+});
+
+
 
 console.log("task-6");
