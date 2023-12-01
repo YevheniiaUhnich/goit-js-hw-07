@@ -26,6 +26,7 @@ function destroyBoxes() {
 }
 
 createButton.addEventListener('click', () => {
+    destroyBoxes();
   const amount = parseInt(input.value);
   if (amount >= 1 && amount <= 100) {
     createBoxes(amount);
@@ -33,10 +34,10 @@ createButton.addEventListener('click', () => {
   } else {
     alert('Please enter a number between 1 and 100.');
   }
-
-  destroyButton.addEventListener('click', () => {
-  destroyBoxes();
+  
 });
+destroyButton.addEventListener('click', () => {
+  destroyBoxes();
 });
 
 
