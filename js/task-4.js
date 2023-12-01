@@ -10,7 +10,7 @@ function handleSubmit(event) {
   for (let i = 0; i < inputs.length; i++) {
     const input = inputs[i];
     
-    if (input.value.trim() === '') {
+    if (input.tagName === 'INPUT' && input.value.trim() === '') {
       alert('All form fields must be filled in');
       return;
     }
@@ -23,3 +23,4 @@ function handleSubmit(event) {
 }
 
 console.log("task-4");
+
